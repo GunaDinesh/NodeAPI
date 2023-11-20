@@ -1,13 +1,15 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
   },
   "name": "nodecours",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node app.js"
+    "serve": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
